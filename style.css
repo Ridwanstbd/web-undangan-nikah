@@ -54,16 +54,16 @@ body {
         font-size: 75%;
     }
     .simply-countdown> .simply-section {
-        padding: 70px;
+        padding: 65px;
     }
 }
 /* ! tablet */
 @media (max-width:768px) {
     html {
-        font-size: 65%;
+        font-size: 70%;
     }
     .simply-countdown> .simply-section {
-        padding: 60px;
+        padding: 50px;
         margin:5px;
     }
 }
