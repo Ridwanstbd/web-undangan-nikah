@@ -47,6 +47,29 @@ body {
     color: white;
     background-color: var(--pink);
 }
+.mynavbar{
+    background-color: rgba(255,255,255,0.3) !important;
+    backdrop-filter: blur(3px);
+}
+.mynavbar .offcanvas{
+    height: 100vh;
+}
+.mynavbar .navbar-brand, .mynavbar .offcanvas-title{
+    font-family: 'Pacifico', cursive;
+    font-size: 3.0rem;
+    font-weight: bold;
+}
+.mynavbar .nav-link{
+    text-transform: uppercase;
+}
+.home {
+    background-image: url(img/bg.png);
+    background-size: cover;
+    min-height: 100vh;
+    margin-top: -7rem;
+    padding-top: 15rem;
+    padding-bottom: 5rem;
+}
 /* ! media query */
 /* ! laptop */
 @media (max-width:992px) {
@@ -65,6 +88,10 @@ body {
     .simply-countdown> .simply-section {
         padding: 50px;
         margin:5px;
+    }
+    .mynavbar .nav-link{
+        font-size: 1.5rem;
+        text-align: center;
     }
 }
 /* ! mobile */
