@@ -8,9 +8,8 @@
 body {
     font-size: 1.2rem;
     font-family: 'Work Sans', sans-serif;
-    min-height: 2000vh;
 }
-
+/* ! hero section start */
 .hero::before{
     content: '';
     position: absolute;
@@ -49,6 +48,8 @@ body {
     color: white;
     background-color: var(--pink);
 }
+/* ! hero section end */
+/* !navbar start  */
 .mynavbar {
     background-color: rgba(255,255,255,0.3) !important;
     backdrop-filter: blur(3px);
@@ -64,7 +65,7 @@ body {
 .mynavbar .nav-link{
     text-transform: uppercase;
 }
-
+/* !home start  */
 
 .home {
     background-image: url(img/bg.png);
@@ -114,6 +115,49 @@ body {
     margin: auto;
     color: var(--pink);
 }
+/* !home end  */
+/* !info start */
+.info {
+    background-color: var(--bg);
+    color: white ;
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+}
+.info h2{
+    color: var(--pink);
+    font-family: 'Pacifico',cursive;
+    font-size: 5rem;
+    font-weight: bold;
+}
+.info .alamat{
+    font-size: 1.1rem;
+}
+.info .description {
+    font-size: 1rem;
+    font-weight: 300;
+}
+.info .card  {
+    background-color: rgba(255,255,255,0.2) !important;
+    color: white !important;
+    border: 1px solid #999;
+}
+.info .card-header{
+    border-bottom: 1px solid #999;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+.info .card-body{
+    font-size: 1rem;
+}
+.info .card-footer{
+    border-top: 1px solid #999;
+    font-size: 0.9rem;
+    font-weight: 300;
+
+}
+/* !info end */
+
+
 /* ! media query */
 /* !extra large */
 @media (max-width:1200px) {
