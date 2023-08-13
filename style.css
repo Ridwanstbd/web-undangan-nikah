@@ -133,7 +133,7 @@ body {
         padding: 65px;
     }
     .home .heart{
-        display: hidden;
+        display: none;
     }
 }
 /* ! tablet */
